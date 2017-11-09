@@ -1,0 +1,25 @@
+PODS:
+  - Font-Awesome-Swift (1.6.2)
+  - Material (2.8.1):
+    - Material/Core (= 2.8.1)
+  - Material/Core (2.8.1)
+  - Realm (2.9.0):
+    - Realm/Headers (= 2.9.0)
+  - Realm/Headers (2.9.0)
+  - RealmSwift (2.9.0):
+    - Realm (= 2.9.0)
+
+DEPENDENCIES:
+  - Font-Awesome-Swift
+  - Material
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Font-Awesome-Swift: 4dc96df73b5f32aaccdee50a454c3ec253ee4977
+  Material: cc27757e6c91999ac41b2089769106a9d83364c0
+  Realm: f14ab1673502559cb16592ddb8f383c474c13e05
+  RealmSwift: 16ad2c187042c4934f49750375582fe508627dcb
+
+PODFILE CHECKSUM: cb480db829a165c723e298b1c2b97f5b6110d170
+
+COCOAPODS: 1.3.1
