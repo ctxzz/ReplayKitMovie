@@ -1,5 +1,5 @@
 //
-//  TabcameraViewController.swift
+//  TabCameraViewController.swift
 //  ReplayKitMovie
 //
 //  Created by Atsushi OMATA on 2017/11/10.

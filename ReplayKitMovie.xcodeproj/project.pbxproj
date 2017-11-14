@@ -14,17 +14,19 @@
 		06AACD311FB4390600858F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD2F1FB4390600858F31 /* LaunchScreen.storyboard */; };
 		06AACD3C1FB4390600858F31 /* ReplayKitMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD3B1FB4390600858F31 /* ReplayKitMovieTests.swift */; };
 		06AACD471FB4390700858F31 /* ReplayKitMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD461FB4390700858F31 /* ReplayKitMovieUITests.swift */; };
-		06AACD551FB5BD3900858F31 /* TabcameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD541FB5BD3900858F31 /* TabcameraViewController.swift */; };
+		06AACD551FB5BD3900858F31 /* TabCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD541FB5BD3900858F31 /* TabCameraViewController.swift */; };
 		06AACD561FB5BEB800858F31 /* Font_Awesome_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD581FB5BEB800858F31 /* Font_Awesome_Swift.framework */; };
 		06AACD571FB5BEB800858F31 /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD591FB5BEB800858F31 /* Material.framework */; };
 		06AACD5A1FB5BEBD00858F31 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD5C1FB5BEBD00858F31 /* Realm.framework */; };
 		06AACD5B1FB5BEBD00858F31 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD5D1FB5BEBD00858F31 /* RealmSwift.framework */; };
 		06AACD5E1FB5C0A300858F31 /* Pods_ReplayKitMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD601FB5C0A300858F31 /* Pods_ReplayKitMovieTests.framework */; };
 		06AACD5F1FB5C0A300858F31 /* Pods_ReplayKitMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06AACD611FB5C0A300858F31 /* Pods_ReplayKitMovieUITests.framework */; };
-		06AACD621FB5C0DF00858F31 /* TabcameraViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD541FB5BD3900858F31 /* TabcameraViewController.swift */; };
+		06AACD621FB5C0DF00858F31 /* TabCameraViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD541FB5BD3900858F31 /* TabCameraViewController.swift */; };
 		06AACD631FB5C0E600858F31 /* ViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD281FB4390600858F31 /* ViewController.swift */; };
 		06AACD651FB5CC1600858F31 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD641FB5CC1600858F31 /* CameraViewController.swift */; };
 		06AACD661FB5D93500858F31 /* CameraViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD641FB5CC1600858F31 /* CameraViewController.swift */; };
+		06AACD681FBA96AA00858F31 /* TabAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AACD671FBA96AA00858F31 /* TabAllViewController.swift */; };
+		06AACD691FBA96E700858F31 /* TabAllViewController.swift in Resources */ = {isa = PBXBuildFile; fileRef = 06AACD671FBA96AA00858F31 /* TabAllViewController.swift */; };
 		7B477F75954B977F770CF221 /* Pods_ReplayKitMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB57395EFEED0055420497A /* Pods_ReplayKitMovieTests.framework */; };
 		800ED0C8FFCA9847F36E0027 /* Pods_ReplayKitMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A851B49DC3B2461B2D2A89 /* Pods_ReplayKitMovieUITests.framework */; };
 		E1B6CE18682F4165C9FAA547 /* Pods_ReplayKitMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4446ECF2284573058F24DBCC /* Pods_ReplayKitMovie.framework */; };
@@ -61,7 +63,7 @@
 		06AACD421FB4390600858F31 /* ReplayKitMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReplayKitMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AACD461FB4390700858F31 /* ReplayKitMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplayKitMovieUITests.swift; sourceTree = "<group>"; };
 		06AACD481FB4390700858F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		06AACD541FB5BD3900858F31 /* TabcameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabcameraViewController.swift; sourceTree = "<group>"; };
+		06AACD541FB5BD3900858F31 /* TabCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCameraViewController.swift; sourceTree = "<group>"; };
 		06AACD581FB5BEB800858F31 /* Font_Awesome_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Font_Awesome_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AACD591FB5BEB800858F31 /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Material.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AACD5C1FB5BEBD00858F31 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 		06AACD601FB5C0A300858F31 /* Pods_ReplayKitMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReplayKitMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AACD611FB5C0A300858F31 /* Pods_ReplayKitMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ReplayKitMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		06AACD641FB5CC1600858F31 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		06AACD671FBA96AA00858F31 /* TabAllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabAllViewController.swift; sourceTree = "<group>"; };
 		0BB57395EFEED0055420497A /* Pods_ReplayKitMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplayKitMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A851B49DC3B2461B2D2A89 /* Pods_ReplayKitMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplayKitMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4446ECF2284573058F24DBCC /* Pods_ReplayKitMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplayKitMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,7 +148,8 @@
 				06AACD2D1FB4390600858F31 /* Assets.xcassets */,
 				06AACD2F1FB4390600858F31 /* LaunchScreen.storyboard */,
 				06AACD321FB4390600858F31 /* Info.plist */,
-				06AACD541FB5BD3900858F31 /* TabcameraViewController.swift */,
+				06AACD671FBA96AA00858F31 /* TabAllViewController.swift */,
+				06AACD541FB5BD3900858F31 /* TabCameraViewController.swift */,
 				06AACD641FB5CC1600858F31 /* CameraViewController.swift */,
 			);
 			path = ReplayKitMovie;
@@ -314,9 +318,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AACD691FBA96E700858F31 /* TabAllViewController.swift in Resources */,
 				06AACD661FB5D93500858F31 /* CameraViewController.swift in Resources */,
 				06AACD631FB5C0E600858F31 /* ViewController.swift in Resources */,
-				06AACD621FB5C0DF00858F31 /* TabcameraViewController.swift in Resources */,
+				06AACD621FB5C0DF00858F31 /* TabCameraViewController.swift in Resources */,
 				06AACD311FB4390600858F31 /* LaunchScreen.storyboard in Resources */,
 				06AACD2E1FB4390600858F31 /* Assets.xcassets in Resources */,
 				06AACD2C1FB4390600858F31 /* Main.storyboard in Resources */,
@@ -502,7 +507,8 @@
 			files = (
 				06AACD291FB4390600858F31 /* ViewController.swift in Sources */,
 				06AACD651FB5CC1600858F31 /* CameraViewController.swift in Sources */,
-				06AACD551FB5BD3900858F31 /* TabcameraViewController.swift in Sources */,
+				06AACD551FB5BD3900858F31 /* TabCameraViewController.swift in Sources */,
+				06AACD681FBA96AA00858F31 /* TabAllViewController.swift in Sources */,
 				06AACD271FB4390600858F31 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

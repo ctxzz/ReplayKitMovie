@@ -11,6 +11,7 @@ import Material
 import Font_Awesome_Swift
 
 class ViewController: UITabBarController {
+    let ALL_TAG = 1
     let CAMERA_TAG = 2
 
     override func viewDidLoad() {
@@ -20,8 +21,13 @@ class ViewController: UITabBarController {
         self.view.backgroundColor = UIColor.white
         var viewControllers: [UIViewController] = []
         
+        let allViewController = TabAllViewController()
+        let navAllViewController = UINavigationController.init(rootViewController: allViewController)
+        allViewController.tabBarItem = UITabBarItem.init(title: "動画一覧", image: UIImage.init(icon: FAType.FAFilm, size: CGSize.init(width: 35, height: 35)), tag: ALL_TAG)
+        viewControllers.append(navAllViewController)
+        
         let cameraViewController = TabCameraViewController()
-        cameraViewController.tabBarItem = UITabBarItem.init(title: "ビデオ撮影", image: UIImage.init(icon: FAType.FACamera, size: CGSize.init(width: 35, height: 35)), tag: CAMERA_TAG)
+        cameraViewController.tabBarItem = UITabBarItem.init(title: "撮影", image: UIImage.init(icon: FAType.FACamera, size: CGSize.init(width: 35, height: 35)), tag: CAMERA_TAG)
         viewControllers.append(cameraViewController)
         
         self.setViewControllers(viewControllers, animated: true)
